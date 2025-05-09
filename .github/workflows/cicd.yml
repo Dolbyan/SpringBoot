@@ -36,7 +36,7 @@ jobs:
         pip3 install requests pytest
 
     - name: Run Python test
-      run: pytest test/python/test.py
+      run: pytest src/test/python/test.py
 
     - name: Login Dockerhub
       uses: docker/login-action@v2
